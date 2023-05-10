@@ -50,25 +50,39 @@ body {
 .carousel-control-next {
   right: -3rem;
 }
-/* Logos de las redes sociales */
-#redes-sociales {
-  display: flex; /* Para centrar el bloque */
-  justify-content: center; /* Para centrar horizontalmente */
-  align-items: center; /* Para centrar verticalmente */
+
+
+/* Estilo para la tabla */
+table {
+  border-collapse: collapse;
+  height: 100%;
 }
 
-#redes-sociales ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-}
-
-#redes-sociales li {
-  margin-right: 10px;
-}
-
-.sobre-nosotros h1,
-.sobre-nosotros p {
-  text-align: center;
+/* Estilo para el encabezado de la tabla */
+th {
+  background-color: #c57d56ff;
   color: white;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Estilo para la segunda fila de la tabla */
+tbody tr:nth-child(1) {
+  background-color: white;
+}
+
+/* Estilo para la tercera fila de la tabla */
+tbody tr:nth-child(2) {
+  text-align: center;
+  background-color: #c57d56ff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilo para todas las celdas de la tabla */
+td {
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
 }

@@ -50,13 +50,25 @@ body {
 .carousel-control-next {
   right: -3rem;
 }
-
-.form {
-  background-color: #c57d56; /* Cambia el color de fondo a tu elección */
-  padding: 20px;
-  margin-top: 50px;
+/* Logos de las redes sociales */
+#redes-sociales {
+  display: flex; /* Para centrar el bloque */
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
 }
 
-.form :placeholder-shown{
-  background-color: #f1dcc2;
+#redes-sociales ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+#redes-sociales li {
+  margin-right: 10px;
+}
+
+.sobre-nosotros h1,
+.sobre-nosotros p {
+  text-align: center;
+  color: white;
 }
